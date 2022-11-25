@@ -4,7 +4,7 @@ import { Connect } from "../src/ConnectButton";
 import { ethers } from "ethers";
 import { useAccount } from "wagmi";
 import { useState } from "react";
-import { useIsMounted } from "./hooks/useIsMounted";
+import useIsMounted from "../src/hooks/useIsMounted";
 
 export default function Home() {
   const [balance, setBalance] = useState("");
